@@ -1,0 +1,18 @@
+print("Chismógrafo")
+
+print("¿Cuál es tu nombre?", end='')
+nombre = input()
+print("¿Cuál es tu edad?", end='')
+edad = input()
+print("¿En qué año estás?", end='')
+año = input()
+print("¿Cuál es tu grupo?", end='')
+grupo = input()
+print("¿Quién es tu mejor amigo(a)?", end='')
+amigo = input()
+print("¿Quién no te cae bien?", end='')
+no_bien = input()
+print("¿Cuál es tu materia preferida?", end='')
+materia = input()
+
+print(f"{nombre} tiene {edad} años, esta en {año} año en el grupo {grupo}. Su mejor amigo/a es {amigo}; {no_bien} no le cae bien y su materia preferida es {materia}.") 

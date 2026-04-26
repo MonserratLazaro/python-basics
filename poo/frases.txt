@@ -1,0 +1,26 @@
+class X(Y)
+- Haz una clase llamada X que is-a Y
+
+class X(object): def __init__(self, J)
+- class X has-a __init__ que toma self y J como parámetros
+
+class X(object): def M(self, J)
+- class X has-a función llamada M que toma self y J como parámetros
+
+foo = X()
+- Declara foo como una instance de clase X
+
+foo.M(J)
+- Desde foo, toma la función M y, llámala con los parámetros self, J.
+
+foo.K = Q
+- Desde foo, toma el atributo K y, pónlo en Q
+
+*Si tratamos X, Y, M, J, K, Q  o foo como estapios en blanco o sustituibles, podríamos escrbir las frases de esta forma:
+
+1 Haz una clase llamada ??? que is-a ???
+2 class ??? has-a __init__ que toma self y ??? como parámetros
+3 class ??? has-a función llamada ??? que toma self y ??? como parámetros
+4 Declara ??? como una instance de class ???
+5 Desde ???, toma la función ??? y, llámala con los parámetros self = ??? y, ???.
+6 Desde ???, toma el atributo ??? y, pónlo en ???

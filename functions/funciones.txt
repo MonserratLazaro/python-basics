@@ -1,0 +1,17 @@
+print() : imprime strings y variables
+print(f"") : f-string, permite incluir variables dentro del string entre {}
+.format() : formatea una función para introducirle información donde tenga espacio disponibles
+input() : guarda información que ingrese el usuario
+argv : guarda una serie de variablas que se utilizan en el script y cuyo valor se otorga al mismo tiempo que se corre el programa
+open() : abre un archivo
+read() : lee el contenido del archivo
+truncate() : elimina el contenido del archivo
+write() : escribe texto dentro de un archivo
+close() : cierra el archivo
+writelines() : método que permite escribir más de un argumento en una sola línea
+len() : determina el largo del archivo en bytes
+exists() : nos indica si un archivo con el que se quiere trabajar existe o no
+def : define una función
+seek() : regresa el cursor a un punto específico determinado por el argumento
+readline() : lee solo una línea
+return : envía información de regreso a la función

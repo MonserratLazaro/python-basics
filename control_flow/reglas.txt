@@ -1,0 +1,24 @@
+Reglas de bloques if
+1. Cada bloque if debe tener un else.
+2. Si este else no correrá porque no tiene sentido, entonces debes usar la función die() en el  else, para imprimir un error y que el proceso muera, tal y como lo hicimos en el ejercicio 28.
+3. No anides bloques if de más de dos capas, siempre trata de que sean de máximo dos.
+4. Trata los bloques if como si fueran parráfos, donde cada if-elif-else se agrupa como un set de frase. Usa reglones vacíos antes y después.
+5. Tus pruebas con booleans deben ser simples. Si son complejas, mueve esos cálculos a variables más tempranas en la función y usa un buen nombre para esa variable.
+
+Reglas para loops
+1. Usa un while loop sólo para un bucle infinito, y eso quiere decir, casi nunca. Esto sólo aplica en Python, los demás lenguajes son diferentes.
+2. Usa un for-loop para todos los demás tipos de bucles, especialmentre si hay un número limitado de cosas para insertar en un bucle infinito.
+
+Reglas de depuración (debugging)
+1. No utilices un "depurador". Un depurador es como hacer un escaneo de cuerpo completo de una persona enferma. No obtienes información útil en específico y vas a encontrar un montón de información adicional que no ayuda y solo confunde.
+2. La mejor forma de depurar un programa es usando print() para imprimir los valores de variables y puntos en el programa, para saber, en donde esta el error.
+3. Asegúrate de que tus programas funcionan tal y como los trabajaste. No escribas líneas de código masiva, antes de correrlos. Escribe un poco, corre un poco, arregla un poco.
+
+Reglas generales para escribir programas
+1. En una hoja de papel o un documento digital escribe una lista de tareas para completar tu software. Esta es tu lista de cosas por hacer.
+2. Elije el aspecto más sencillo que puedas hacer de tu lista.
+3. Escribe comentarios en tu código fuente, para guiarte en como puedes completar esta tarea en tu código.
+4. Escribe algo del código debajo de los comentarios.
+5. Rápidamente corre tu script para verificar que funciona.
+6. Sigue trabajando bajo este ciclo, corriendolo para probarlo y para arregarlo hasta que funcione.
+7. Elimina una a una, las tareas que completes, selecciona la siguiente tarea más sencilla en la lista y repite.

@@ -1,0 +1,23 @@
+Funciones
+
+urlopen: accede a URLs utilizando distintos protocolos, es la más fácil de usar para situaciones sencillas. Pertenece al módulo urllib.request y se utiliza para realizar solicitudes HTTP básicas, como obtener el contenido de una página web.
+
+str: convierte objetos a strings. Se puede utilizar con diversos tipos de datos (variables numéricas, listas, tuplas, etc.) y es útil cuando se necesita combinar o imprimir información que no es originalmente un string.
+
+strip: suprime los caracteres en blanco(espacios, tabulaciones y saltos de línea) al final o al principio de un string. 
+
+capitalize: devuelve una copia del string con el primer carácter en mayúscula y el resto en minúsculas.
+
+sample: devuelve un determinado número de elementos diferentes elegidos al azar de un conjunto dado, pertenece al módulo random.
+
+count: devuelve el número de veces que un elemento aparece en un conjunto (lista, tupla, string).
+
+randint: se utiliza para generar números enteros aleatorios dentro de un rango especificado, incluyendo ambos valores extremos. Pertenece al módulo random.
+
+replace: reemplaza parte de una cadena de texto, basándose en el número de caracteres especificados, con otra cadena de texto. Es una forma de modificar el contenido de una cadena. Tiene dos parámetros: replace(sub, nuevo) y devuelve una copia del string con todas las ocurrencias del substring (sub) reemplazadas por el substring (nuevo). Adicionalmente se le puede pasar un tercer parámetro que indica el número máximo de ocurrencias que se reemplazaran.
+
+keys: devuelve una vista de todas las claves de un diccionario, pertenece a la clase dict y devuelve un tipo de dato iterable conocido como objetos vista.
+
+shuffle: modifica o mezcla aleatoriamente los elementos de una secuencia (lista, tupla) de manera que las posiciones de los elementos cambian, altera directamente a la secuencia en lugar de devolver una nueva. Pertenece al módulo random. 
+
+EOFError: es un excepción que se genera cuando una función de entrada (input o raw_input) llega al final de archivo (EOF, End Of File) sin leer ningún dato. Generalmente ocurre cuando se intenta leer más datos de los disponibles en funciones de entrada u operaciones de lectura de archivos.

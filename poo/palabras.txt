@@ -1,0 +1,31 @@
+class
+Le dice a Python como hacer un nuevo tipo de "cosa" (objeto).
+
+object
+Dos significados: el tipo de "cosa" más básica y, cualquier instancia de "algo".
+
+instance
+Lo que obtienes cuando le dices a Python que cree una clase (class).
+
+def
+Forma de definir una función dentro de una clase o fuera de ella.
+
+self
+Dentro de las funciones dentro de una class, self es una variable de la instace/object que se esta accesando.
+
+inheritance
+Es el concepto de que una class puede hederar rasgos o cosas de otra class.
+
+composition
+El concepto de que una class puede componerse de otras classes como si fueran partes.
+
+attribute
+Una propiedad de las classes que viene de la composition y son usualmente variables.
+
+is-a
+Una frase para decir que algo se hereda de otro lado o de otra cosa.
+"Salmon" is-a "fish"
+
+has-a 
+Una frase para decir que algo se compone de otras cosas como rasgos.
+"a salmon has-a mouth"

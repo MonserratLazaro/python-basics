@@ -1,0 +1,73 @@
+KEYWORD,DESCRIPCIÓN,EJEMPLO
+and,Operador lógico and,True and False = False
+def,Define una función, def x(): pass
+if,Condición if,if: X; elif: Y; else: Z
+elif,Condición Else if,if: X; elif: Y; else: Z
+else,Condición Else,if: X; elif: Y; else: Z
+for,Bucle sobre una colección de cosas,for X in Y: pass
+import,Importar un modulo para usar,import os
+in,Parte de for-loops. También prueba X in ,for X in Y: pass también 1 in [1] == True
+not,Operador lógico not,not True == False
+or,Operador lógico or,True or False == True
+print,Función de impresión en pantalla,print()
+return,Regresa un valor de una función,def X(): return Y
+while,Bucle While,while X: pass
+as,Parte de la declaración with-as,with X as Y: pass
+assert,Asegurarse (ensure) que algo es True,"assert False, ""Error!"""
+break,¡Detén este bucle justo ahora!,while True: break
+class,Define una clase,class Persona(objeto)
+continue,"No proceses más del bucle, hazlo de nuevo",while True: continue
+del,Elimina del diccionario ,del X[Y]
+except,"Si una excepción sucede, haz esto...",except ValueError as e: print(e)
+exec,Corre una cadena (string) como Python,"exec 'print(""hello"")'"
+finally,"Con excepciones o sin ellas, finalmente haz esto sin importar lo demás.",finally: pass
+global,Declara que quieres una variable global,global X
+is,Es igual a == para probar que algo es igual,1 is 1 == True
+lambda,Crea una función corta anónima,is = lambda y: y* * y; s(3)
+pass,Este bloque esta vacío,def empty(): pass
+raise,Eleva una excepción cuando las cosas van mal,"raise ValueError(""No"")"
+try,"Trata con este bloque, y si hay una excepción, ve a except",try: pass
+with,Con una expresión como lo hace una variable,with X as Y: pass
+yield,Pausa aquí y regresa al caller,def X(): yield Y; X().next()
+,,
+ESCAPE,DESCRIPCIÓN,
+\\,Backlash '\',
+\',Comilla simple,
+"\""",Comilla doble,
+\t,Tab,
+\n,Newline (nueva línea),
+\a,Bell,
+\f,Formfeed,
+\r,Carriage,
+\v,Vertical tab,
+,,
+OPERADOR,DESCRIPCIÓN,EJEMPLO
++,Suma,2 + 4 == 6
+-,Resta,2 - 4 == -2
+*,Multiplicación,2 * 4 == 8
+**,A la potencia,2 ** 4 = 16
+/,División,2 / 4 = 0.5
+//,Floor división,2 // 4 = 0
+%,Modulos (residuo) o Interpolación de cadenas,2 % 4 == 2
+<,Menor que,4 < 4 == False
+>,Mayor que,4 > 4 == False
+<=,Menor o igual que,4 <= 4 == True
+>=,Mayor o igual que,4 <= 4 == True
+==,Igual,4 == 5 == False
+!=,No es igual,4 != 5 == True
+(),Paréntesis,"len(""hi"") == 2"
+[],Braquets de lista,"[1, 3, 5]"
+{},Dict curly braces o para formatear variable,"{'x': 5, 'y': 10}"
+@,Arroba (decorador),@classmethod
+",",Coma,"range(0, 10)"
+:,Dos puntos (colon),def X():
+.,Punto(dot),self.x = 10
+=,Asigna valor,x = 10
+;,Punto y coma (semi-colon),"print(""hola""; print(""mundo"")"
++=,Suma y asigna,x = 1; x += 2
+-=,Resta y asigna,x = 1; x -= 2
+*=,Multiplica y asigna,x = 1; x *= 2
+/=,Divide y asigna,x = 1; x /= 2
+//=,Floor divide y asigna,x = 1; x //= 2
+%=,Modulos y asigna,x = 1; x %= 2
+**=,Potencia y asigna,x = 1; x **= 2
